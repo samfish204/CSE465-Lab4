@@ -1,5 +1,7 @@
 # Lab 4:  Beginning Prolog
 This lab covers basic prolog rules, facts, and numbers. 
+> **NOTE:** You can interact with prolog programs using https://swish.swi-prolog.org/
+> This can be a good way to test things out before pasting them into your solution. 
 
 # Before Asking for Help
 1.  Make sure you watched the weak's lecture
