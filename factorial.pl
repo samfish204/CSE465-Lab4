@@ -4,6 +4,13 @@
 
 %% TODO -- Put your implementation here
 
+fact(0, 1).
+fact(N, R) :-
+    N > 0, 
+    NMinus1 is N-1, 
+    fact(NMinus1, FactNMinus1), 
+    R is N*FactNMinus1.
+
 %% Testing
 
 :- fact(5, X), format('5! is ~d~n', X), !.

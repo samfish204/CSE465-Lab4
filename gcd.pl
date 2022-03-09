@@ -13,6 +13,11 @@
 
 %% TODO -- Define GCD here in Prolog here
 
+gcd(A, 0, A).
+gcd(A, B, R) :-
+    B \= 0, 
+    AModB is A mod B,
+    gcd(B, AModB, R).
 
 %% Tests
 :- gcd(8, 4, X), format('gcd of 8 and 4 is ~f~n', X).
